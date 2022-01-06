@@ -21,7 +21,7 @@ ul {
   color: var(--accent-color);
 }
 
-/* site-nav */
+/* Site-nav */
 
 .site-nav .link {
   color: var(--title-text-color);
@@ -29,6 +29,10 @@ ul {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
