@@ -17,6 +17,9 @@ ul {
 .logo {
   color: #000000;
 }
+.text-web {
+  color: var(--accent-color);
+}
 
 /* site-nav */
 
