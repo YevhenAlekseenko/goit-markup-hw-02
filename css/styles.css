@@ -9,14 +9,27 @@
 body {
   background-color: var(--primary-white-color);
   color: var(--title-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 ul {
   list-style: none;
 }
 
+/* logo */
+
 .logo {
   color: #000000;
+  font-family: Raleway, cursive;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .text-web {
   color: var(--accent-color);
@@ -26,6 +39,11 @@ ul {
 
 .site-nav .link {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -38,21 +56,46 @@ ul {
 }
 
 /* Hero */
+.hero {
+  background-color: #2f303a;
+}
 .hero-title {
   color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Section */
 .section-title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
+
 .caption {
   color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
 }
 
 /* Feature */
 .feature-list .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 /* Team */
@@ -64,6 +107,14 @@ ul {
 .button {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  cursor: pointer;
 }
 .button.primery {
   color: var(--primary-white-color);
