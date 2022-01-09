@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
 }
 
 body {
@@ -62,6 +63,7 @@ ul {
 /* Button */
 .button {
   color: var(--title-text-color);
+  background-color: var(--secondary-background-color);
 }
 .button.primery {
   color: var(--primary-white-color);
