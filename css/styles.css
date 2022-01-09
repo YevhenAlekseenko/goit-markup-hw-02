@@ -45,6 +45,9 @@ ul {
 .section-title {
   color: var(--title-text-color);
 }
+.caption {
+  color: var(--primary-text-color);
+}
 
 /* Feature */
 .feature-list .title {
