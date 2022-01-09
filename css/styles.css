@@ -61,9 +61,14 @@ ul {
 
 /* Button */
 .button {
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 .button.primery {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.button.secondary:hover,
+.button.secondary:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
