@@ -125,3 +125,7 @@ ul {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+/* address */
+.address {
+  font-style: normal;
+}
