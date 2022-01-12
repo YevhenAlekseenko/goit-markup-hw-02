@@ -60,6 +60,7 @@ a {
 }
 
 /* Hero */
+
 .hero {
   background-color: #2f303a;
 }
@@ -74,6 +75,7 @@ a {
 }
 
 /* Section */
+
 .section-title {
   color: var(--title-text-color);
 
@@ -93,6 +95,7 @@ a {
 }
 
 /* Feature */
+
 .feature-list .title {
   color: var(--title-text-color);
 
@@ -103,11 +106,13 @@ a {
 }
 
 /* Team */
+
 .team-list .title {
   color: var(--title-text-color);
 }
 
 /* Button */
+
 .button {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
@@ -129,7 +134,13 @@ a {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-/* address */
+
+/* Footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
 .address {
   font-style: normal;
 }
