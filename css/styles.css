@@ -96,7 +96,6 @@ a {
 .hero-title {
   color: var(--primary-white-color);
 
-  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -114,9 +113,7 @@ a {
   color: var(--title-text-color);
 
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -131,7 +128,6 @@ a {
 .section-title {
   color: var(--title-text-color);
 
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -144,7 +140,6 @@ a {
 .team-title {
   color: var(--title-text-color);
 
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -192,7 +187,6 @@ a {
 /* Portfolio */
 
 .portfolio-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
